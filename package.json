@@ -1,0 +1,29 @@
+{
+  "name": "Web-Authentication-API",
+  "version": "1.0.0",
+  "description": "Demo example for Web Auth API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoncarKlemen/Web-Authentication-API.git"
+  },
+  "keywords": [],
+  "author": "Klemen Loncar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoncarKlemen/Web-Authentication-API/issues"
+  },
+  "homepage": "https://github.com/LoncarKlemen/Web-Authentication-API#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
