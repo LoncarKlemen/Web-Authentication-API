@@ -1,4 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
+import Wrapper from "./wrapper";
 
-ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"))
+ReactDOM.render(<Container><Wrapper /></Container>, document.getElementById("root"))
